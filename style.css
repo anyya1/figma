@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-color:#c2efd4;
+    min-height: 100vh;
+}
+.header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    width:100%;
+    padding:80px ;
+}
+.logo{
+    font-weight: 400; 
+    font-size: 40px;
+    color: #224F34;
+    font-family: Elephant;
+}
+
+.nav {
+    display: flex;
+    gap: 57px;
+}
+
+.nav a {
+    color: #224F34;
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.korzina {
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    background-color: transparent;
+    width: 142px;
+    height: 52px;
+    color: #224F34;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border-color: #224F34;
+    border: 2px solid #224F34;
+}
+.knopki{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+        
