@@ -356,5 +356,76 @@ letter-spacing: 0%;
     border-radius: 3px;
 }
 
+.section5 {
+    background-color: #ffffff;
+    padding-inline: 174px;
+    padding-block: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.designer-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.designer-header h2 {
+    color: #224F34;
+    font-family: Roboto Slab;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 100%;
+    margin-bottom: 51px;
+}
+
+.designer-header p {
+    color: #224F34;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+}
+
+.designer-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 44px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.designer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 430px;
+    height: 566px;   
+   }
+
+.designer-photo {
+    width: 430px;
+    height: 566px;            
+    display: block;
+    margin-bottom: 30px;
+}
+
+.designer-card h3 {
+    color: #373737;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 15px;
+}
+
+.designer-card p {
+    color: #373737;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 143%;
+}
 
